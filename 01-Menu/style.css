@@ -1,0 +1,39 @@
+body{
+    background: #f8f9fa;
+}
+
+.navbar{
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.navbar-nav .navlink{
+    font-size: 1rem;
+    color: #333;
+}
+
+h3{
+    color: #333;
+}
+
+.price{
+    color: #e83e8c;
+}
+
+.menu-item{
+    list-style: none;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.menu-item img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.menu-item:hover{
+    transform: scale(1.1);
+    background: #f3f1f1;
+}
